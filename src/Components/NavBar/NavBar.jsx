@@ -37,12 +37,12 @@ const NavBar = () => {
   ));
 
   return (
-    <nav className="flex justify-between px-4 mx-5 my-5 py-5 items-center shadow-lg">
+    <nav className="flex justify-between p-4 items-center shadow-sm">
       
 
       <span
         onClick={() => setOpen(!open)}
-        className="cursor-pointer flex gap-2"
+        className="cursor-pointer flex gap-2 "
       >
         {open ?
           <X className="md:hidden"></X>
@@ -50,7 +50,12 @@ const NavBar = () => {
           <Menu className="md:hidden"></Menu>
         }
 
-        <ul className="md:hidden">{Links}</ul>
+        <ul className={`md:hidden absolute duration-650 
+          ${open ? 'top-13' : '-top-50'} 
+          bg-pink-100 px-2 md:pl-5 py-5 rounded-lg z-50`}>
+          {Links}
+        </ul>
+
         <h3>Apple Music</h3>
       </span>
 
@@ -65,7 +70,7 @@ const NavBar = () => {
                         </li>)
                 }
             </ul> */}
-      <button className="bg-amber-400 px-3 py-2 rounded-full cursor-pointer">
+      <button className="bg-pink-100 px-3 py-2 rounded-full cursor-pointer">
         Sign In
       </button>
     </nav>

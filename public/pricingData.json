@@ -1,0 +1,98 @@
+{
+  "pricingPlans": [
+    {
+      "id": 1,
+      "name": "Basic",
+      "price": 4999,
+      "duration": "1 month",
+      "description": "Perfect for startups and small businesses getting started.",
+      "features": [
+        "Static Website Development (up to 5 pages)",
+        "Responsive Design (Mobile Friendly)",
+        "Basic SEO Optimization",
+        "Google Search Console Setup",
+        "Email Support",
+        "1 Revision per month",
+        "Shared Hosting Setup",
+        "Basic Security Setup (SSL)",
+        "Contact Form Integration",
+        "Website Speed Optimization (Basic)",
+        "Domain Setup Assistance"
+      ],
+      "isPopular": false
+    },
+    {
+      "id": 2,
+      "name": "Standard",
+      "price": 9999,
+      "duration": "3 months",
+      "popular": true,
+      "description": "Best for growing businesses needing more flexibility.",
+      "features": [
+        "Dynamic Website Development",
+        "CMS Integration (WordPress or Custom)",
+        "Advanced SEO Optimization",
+        "On-page SEO Setup",
+        "Priority Email & Chat Support",
+        "5 Revisions per month",
+        "Cloud Hosting Setup",
+        "Performance Optimization",
+        "Google Analytics Integration",
+        "Social Media Integration",
+        "Basic API Integration",
+        "Image & Content Optimization",
+        "Backup & Restore Setup"
+      ],
+      "isPopular": true
+    },
+    {
+      "id": 3,
+      "name": "Premium",
+      "price": 19999,
+      "duration": "6 months",
+      "description": "Ideal for businesses scaling with advanced needs.",
+      "features": [
+        "Custom Web Application Development",
+        "Full SEO + Marketing Integration",
+        "Technical SEO Optimization",
+        "24/7 Priority Support",
+        "Unlimited Revisions",
+        "Dedicated Server Setup",
+        "Advanced Security (SSL, Firewall)",
+        "API Integration (Third-party services)",
+        "Payment Gateway Integration",
+        "Database Design & Optimization",
+        "Advanced UI/UX Design",
+        "Performance Monitoring",
+        "Weekly Backup & Maintenance",
+        "Content Management Training"
+      ],
+      "isPopular": false
+    },
+    {
+      "id": 4,
+      "name": "Enterprise",
+      "price": 49999,
+      "duration": "12 months",
+      "description": "For large organizations with complex requirements.",
+      "features": [
+        "Enterprise-grade Application Development",
+        "Dedicated Account Manager",
+        "24/7 Dedicated Support Team",
+        "Custom Integrations (CRM, ERP, SaaS tools)",
+        "High Scalability Infrastructure",
+        "Load Balancing & Auto Scaling",
+        "Advanced Cybersecurity Solutions",
+        "DevOps & CI/CD Pipeline Setup",
+        "Microservices Architecture",
+        "Cloud Architecture Design (AWS/Azure/GCP)",
+        "Data Encryption & Compliance (GDPR, etc.)",
+        "Real-time Monitoring & Alerts",
+        "Disaster Recovery Planning",
+        "Custom Reporting Dashboard",
+        "Multi-user Role Management"
+      ],
+      "isPopular": false
+    }
+  ]
+}
