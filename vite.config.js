@@ -9,5 +9,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: '/React-Ecosystem-Build/'
+  // base: '/React-Ecosystem-Build/'
 })
